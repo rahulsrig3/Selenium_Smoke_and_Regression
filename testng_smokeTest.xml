@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="smokeTest">
+		<groups>
+		<run>
+			<include name="smokeTest"/>
+		</run>
+	</groups>
+
+  <test name = "TestRunner01">
+    <classes>
+      <class name="com.crm.ContactTest.ContactTest"/>
+      <class name="com.crm.comcast.orgTest.OrganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
