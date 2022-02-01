@@ -199,7 +199,7 @@ public class WebDriverUtility {
 	
 	/**
 	 * Switch to window depending on partial title
-	 * @param driver
+	 * @param driveru
 	 * @param partialWinTitle
 	 */
 	public void switchToWindow(WebDriver driver, String partialWinTitle)
@@ -274,6 +274,7 @@ public class WebDriverUtility {
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.srollby(0,500)","");
+		
 	}
 	
 	/**

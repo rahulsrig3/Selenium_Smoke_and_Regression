@@ -24,8 +24,6 @@ public class ListenerImp implements ITestListener{
 		try {
 			FileUtils.copyFile(srcFile, new File("./ScreenShot/"+failedTestName+"_"+systemDate+".png"));
 		} catch (IOException e) {
-		}
-		
-		
+		}	
 	}
 }

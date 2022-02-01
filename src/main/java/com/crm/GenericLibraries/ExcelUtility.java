@@ -72,7 +72,7 @@ public class ExcelUtility {
 		Cell c = r.getCell(cellNo);
 		c.setCellValue(data);
 		
-		FileOutputStream fos = new FileOutputStream(IPathConstants.FilePath);
+		FileOutputStream fos = new FileOutputStream(IPathConstants.ExcelPath);
 		wb.write(fos);
 		wb.close();
 	}
